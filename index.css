@@ -1,0 +1,50 @@
+body{
+    background-image: url(images/Wooden-Background.jpg);
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  margin:auto;
+  padding:0;
+text-align: center;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    gap:50px;
+}
+.player{
+    margin-top:50px;
+    height:400px;
+    color:lightpink;
+    background:rgb(106, 60, 4,0.5);
+}
+.playerscorediv,.robotscorediv{
+    display: inline;
+    margin-top:-10px;
+}
+p>img{
+    display:inline;
+    height:60px;
+    width:60px;
+    margin-right:10px;
+}
+.computer{
+    margin-top:50px;
+    height:400px;
+    color:lightpink;
+    background:rgb(106, 60, 4,0.5);
+}
+.flex-container{
+    display: flex;
+    justify-content: center;
+    gap:20px;
+}
+ img{
+    width:150px;
+    height:150px;
+}
+button{
+    border-radius: 10%;
+    border-width:5px;
+    border-color:rgb(96, 26, 1);
+}
